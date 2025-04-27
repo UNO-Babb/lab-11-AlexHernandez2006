@@ -1,0 +1,8 @@
+I adjusted the code to include what the longest wait time was. Due to the assumptions with the code, the longest wait time with an item range of 5-20 and 5 checkers will
+be 3 minutes. This takes into account both the shopping time and check out time, so the result will be a bit inaccurate. I would likely reccomend that the wait time be
+adjusted to only include the check out time because that is when the customer is truly having to wait. This would result in the longest wait time being more accurate.
+
+I also found that due to the random amount of items each customer will shop for, it may be best to have one checker for every ten items. With my current code, items range
+from 5-50. Therefore, it would be best to have about 5 checkers. I have seen that this produces the best balance between average wait time and total idle time. If you had
+fewer checkers, the wait time would increase while the idle time would decrease. The opposite would occur if you increased the number of checkers. However, by having one
+checker for every ten items, it minimizes the wait time and idle time enough to where it wouldn't be a significant issue.
